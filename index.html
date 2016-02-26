@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Developing Data Product(Assigment)</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Developing Data Product(Assigment)">
+  <meta name="author" content="Azam Yahya">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Developing Data Product(Assigment)</h1>
+    <h2>Education Situation Analysis for Sindh, Pakistan</h2>
+    <p>Azam Yahya<br/></p>
+  </hgroup>
+    <a href="https://github.com///zipball/gh-pages" class="example">
+     Download
+    </a>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>PITCH PROJECT</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>This is my reproducible pitch presentation, where I describe what I did in my simple app project.</p>
+
+<p>The project is regarding the education in situation. The application shows some basic ratio such as </p>
+
+<ol>
+<li>Student to teacher ratio,</li>
+<li>Student to class ratio and</li>
+<li>Student to school ratio. </li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Data Description</h2>
+  </hgroup>
+  <article data-timings="">
+    <pre><code>## &#39;data.frame&#39;:    72 obs. of  5 variables:
+##  $ district  : Factor w/ 2 levels &quot;larkana&quot;,&quot;thatta&quot;: 1 1 1 1 1 1 1 1 1 1 ...
+##  $ factor    : Factor w/ 3 levels &quot;class&quot;,&quot;school&quot;,..: 1 1 1 1 1 1 1 1 1 1 ...
+##  $ gender    : Factor w/ 3 levels &quot;Boys&quot;,&quot;Girls&quot;,..: 1 2 3 1 2 3 1 2 3 1 ...
+##  $ level     : Factor w/ 4 levels &quot;Higher Secondary&quot;,..: 3 3 3 2 2 2 4 4 4 1 ...
+##  $ percentage: num  47.8 44.8 51 42.1 43.6 ...
+</code></pre>
+
+<p>The Data contains five variables;</p>
+
+<ol>
+<li>Districts</li>
+<li>Factors</li>
+<li>Gender</li>
+<li>Education Level</li>
+<li>Value in Percentage</li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>How does the application Works</h2>
+  </hgroup>
+  <article data-timings="">
+    <ol>
+<li>Select the district</li>
+<li>select the Education measure for the above selected district</li>
+</ol>
+
+<p>The output is in the form of multi-faceted graph. It shows the ratio for gender type schools i.e either boys only schools/ girls only schools or non-segregated schools. For each of these value it shows for tier of education i.e primary, middle, secondary and higher secondary</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Output(Graph</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>)
+<img src="assets/img/student.png" alt="width"></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='PITCH PROJECT'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Data Description'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='How does the application Works'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Output(Graph'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
